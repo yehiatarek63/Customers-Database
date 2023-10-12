@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SD.LLBLGen.Pro.DQE.PostgreSql" Version="5.10.2" />
+    <PackageReference Include="SD.LLBLGen.Pro.ORMSupportClasses" Version="5.10.2" />
+  </ItemGroup>
+
+</Project>
