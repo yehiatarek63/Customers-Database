@@ -13,7 +13,7 @@ public class _002_CreateOrderTable : AutoReversingMigration
     {
         Create.Table(Tables.Order)
             .WithColumn("id").AsInt32().PrimaryKey().Identity().NotNullable()
-            .WithColumn("customer_id").AsInt32().NotNullable().ForeignKey("Customer", "id")
+            .WithColumn("customer_id").AsInt32().NotNullable().ForeignKey("customer", "id")
             .WithColumn("order_name").AsString(50).NotNullable()
             .WithColumn("order_date").AsDateTime().NotNullable()
             .WithColumn("total").AsDecimal().NotNullable()

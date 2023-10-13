@@ -8,6 +8,6 @@ namespace Customers.Migration;
 
 internal class Tables
 {
-    public const string Customer = "Customer";
-    public const string Order = "Order";
+    public const string Customer = "customer";
+    public const string Order = "order";
 }
