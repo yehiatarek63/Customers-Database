@@ -17,6 +17,6 @@ public class _001_CreateCustomerTable : AutoReversingMigration
             .WithColumn("last_name").AsString(50).NotNullable()
             .WithColumn("address").AsString(50).NotNullable()
             .WithColumn("email").AsString().NotNullable()
-            .WithColumn("zip_code").AsString(50).NotNullable();
+            .WithColumn("zip_code").AsString(5).NotNullable();
     }
 }
